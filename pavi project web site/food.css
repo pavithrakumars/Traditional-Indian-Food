@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 550px;
+    margin-top: 5%;
+    opacity: 0.80;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 20px  ;
+}
+body:hover{
+    opacity: 1;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 30px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: serif;
+}
+.navbar a:hover{
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    background-color: black;
+    letter-spacing: 2.5px;
+}
+/* ..............end of header ......... */
+.brand{
+    position: fixed;
+    padding-left: 25%;
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.brand h1{
+    text-align: center;
+    font-size: 60px;
+    color:transparent;
+    font-weight: bold;
+    /* font-style: italic; */
+    font-family: sans-serif;
+    -webkit-text-stroke: 3px black;
+}
+.brand h1:hover{
+    transition: .5s;
+    color: red;
+}
+.brand p{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.brand button{
+    margin-top: 10px;
+}
+ button{
+   margin-top: 10px 20px ;
+   background-color: white;
+   color: black;
+   /* filter: blur(.2); */
+   font-size: 20px;
+   letter-spacing: 1.5px;
+   padding: 5px 10px;
+   border-radius: 10px ;
+   cursor: pointer;
+   box-shadow: -2px 3px 20px white;
+}
+button:hover{
+    box-shadow: -2px 3px 20px black;
+    transition: .4s ease;
+    color: white;
+    background-color: black;
+}

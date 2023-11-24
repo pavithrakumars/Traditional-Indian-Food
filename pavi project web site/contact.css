@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    /* height: 550px; */
+    margin-top: 5%;
+    opacity: 0.90;
+    display: flex;
+   background-image: url(food4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 20px  ;
+}
+body:hover{
+    opacity: 1;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 30px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: serif;
+}
+.navbar a:hover{
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    letter-spacing: 2.5px;
+}
+
+.form{
+    padding-left: 520px;
+    padding-top: 5%;
+}
+form{
+    
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(90, 84, 84, 0.37);
+    border-radius: 20px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .7;
+
+}
+label{
+    font-size: 20px;
+    color:black;
+    margin-left: 10%;
+    /* opacity: .8; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+label:hover{
+    color: orangered;
+    transition: .4s ease;
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    /* opacity: 0.8 ; */
+    
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: black;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px ;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2) ;
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37) ;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+button:hover{
+    background: black;
+    transition: .4s ease;
+    cursor: pointer;
+    color: white;
+}
+
+a{
+   font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+   color: white;
+   /* opacity: .7; */
+
+}
+#icon{
+    padding-left: 90px;
+    font-size: 70px;
+   }
